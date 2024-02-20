@@ -1,5 +1,5 @@
 .box {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 100px;
     padding: 10px;
     text-align: center;
@@ -17,7 +17,7 @@
 .box-10 { background-color: #f94144;}
 
 
-.container { 
+/* .container { 
     display: flex;
     border: 10px solid goldenrod;
     min-height: 100vh;
@@ -28,4 +28,20 @@
 .box {
     width: 33.3333333%;
     margin: 10px;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+}
+
+.box-3 {
+    order: -1;
+}
+.box-6 {
+    order: 2;
 }
